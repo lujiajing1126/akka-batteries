@@ -2,7 +2,7 @@
 
 organization in ThisBuild := "com.paytmlabs.akka"
 scalaVersion in ThisBuild := "2.12.1"
-scalaCrossVerions := Seq("2.11.8", "2.12.1")
+crossScalaVersions := Seq("2.11.8", "2.12.1")
 version in ThisBuild := "0.2.0-SNAPSHOT"
 
 publishTo in ThisBuild := {
