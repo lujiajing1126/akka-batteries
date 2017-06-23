@@ -1,8 +1,9 @@
 /*** Common Settings ***/
 
 organization in ThisBuild := "com.paytmlabs.akka"
-scalaVersion in ThisBuild := "2.11.8"
-version in ThisBuild := "0.1.0-SNAPSHOT"
+scalaVersion in ThisBuild := "2.12.1"
+scalaCrossVerions := Seq("2.11.8", "2.12.1")
+version in ThisBuild := "0.2.0-SNAPSHOT"
 
 publishTo in ThisBuild := {
  val nexus = "https://nexus.paytmlabs.com/content/repositories"
@@ -48,7 +49,7 @@ lazy val discoveryElb = (project in file("discovery/elb"))
 
 /*** Dependencies ***/
 
-val AKKA_VERSION                    = "2.4.17"
+val AKKA_VERSION                    = "2.5.3"
 val AWS_SDK_VERSION                 = "1.11.89"
 val SCALA_MOCK_VERSION              = "3.2.2"
 val SCALATEST_VERSION               = "3.0.0"
