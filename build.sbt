@@ -51,7 +51,7 @@ lazy val discoveryElb = (project in file("discovery/elb"))
 
 val AKKA_VERSION                    = "2.5.3"
 val AWS_SDK_VERSION                 = "1.11.89"
-val SCALA_MOCK_VERSION              = "3.2.2"
+val SCALA_MOCK_VERSION              = "3.6.0"
 val SCALATEST_VERSION               = "3.0.0"
 
 val akkaActor              = "com.typesafe.akka"      %% "akka-actor"               % AKKA_VERSION
